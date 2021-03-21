@@ -260,5 +260,12 @@ a.title:hover{
 	width: 56px;
 }
 
+a#powrot{
+	color: white;
+	text-decoration: none;
+}
 
+a#powrot:hover{
+	color: green;
+}
 
