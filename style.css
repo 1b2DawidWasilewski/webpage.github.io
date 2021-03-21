@@ -231,7 +231,7 @@ h4{
 	background-color: white;
 	box-shadow: 0px -5px 10px grey;
 	float: left;
-	display: box
+	display: block;
 }
 
 .ContVideo:hover{
