@@ -6,7 +6,7 @@
 			
 			<title>MonoChrome - Najlepsze komiksy</title>
 			
-			<link rel="stylesheet" href="videopage.css" type="text/css"/>
+			<link rel="stylesheet" href="kontakt.css" type="text/css"/>
 			<link rel="stylesheet" href="css/fontello.css" type="text/css"/>
 			
 			<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -20,13 +20,10 @@
 <body>
 
 <div id="container">
-	
-	
 	<div id="toppage">
 		
 				<div id="Title"><h2><a class="toplink main title" href="index.html">MonoChrome</h2></a></div>
-				<div id="subtitle"><h2>|  Tworzenie CAŁEJ strony komiksu<h2></div>
-				<div id="contact"><p><a class="toplink main" href="kontakt.html">Kontakt</p></a></div>
+				<div id="subtitle"><h2>|  Kontakt<h2></div>
 				<div id="tut"><p><a class="toplink main" href="tut.html">Poradniki</p></a></div>
 				<div id="home"><p><a class="toplink main" href="index.html">Strona Główna</p></a></div>
 				
@@ -38,34 +35,33 @@
 	<div id="videocontainer">
 		<div id="leftcol"></div>
 		<div id="video">
-			<iframe class="Video" width="560" height="315" src="https://www.youtube.com/embed/3I95eYfZPuw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<img id="kubek" src="img/kubek.gif"/>
 		</div>
 		<div id="rightcol"></div>
 	</div>
 	
-	
 	<div class="void"></div>
-	
 	
 	<div id="whitebar"></div>
 	
 	<div class="void1"></div>
 	
 	<div id="content">
-		<div class="Content">
-				<p class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lorem orci, suscipit et arcu et, fringilla imperdiet orci. Phasellus id ullamcorper dui, tincidunt malesuada metus. Nunc ipsum neque, sodales at ante et, maximus ornare ante. Mauris porttitor, purus ac vulputate maximus, massa tellus interdum magna, et cursus tortor justo vitae massa. Integer sagittis semper nunc, nec bibendum elit eleifend et. Mauris eu ornare turpis. Morbi rutrum tellus et molestie elementum. Nunc ultricies tincidunt dapibus. Ut sagittis iaculis nibh, vel tempus dui dictum eu. Proin id tristique velit. Nam convallis neque ligula, vel tempor mi cursus nec. Praesent tristique eros dui, venenatis volutpat odio pharetra non. Sed rhoncus lorem neque, et bibendum mi cursus eget.</p>
+		<h2>Skontaktuj się z nami!</h2>
+		<div id="contact-form">
+			<form id="contact-form" method="post" action="contact-form-handler.php">
+			
+				<input name="Imię" type="text" class="form-control" placeholder="Twoje imię..." required/>
+				<br/>
+				<input name="E-mail" type="email" class="form-control" placeholder="Twój E-mail..." required/>
+				<br/>
+				<textarea name="Wiadomość" class="form-control" placeholder="Twoja wiadomość..." row="4" required></textarea><br/>
+				<input type="submit" class="form-control submit" value="Wyślij wiadomość"/>
+			
+			</form>
 		</div>
-			
-			<div class="Content">
-				<p class="txt">To jest przykładowy tekst, który jest według mnie przepiękny!</p>
-			</div>
-			
-			<div id="images">
-				<img id="webcomicjpg2" src="img/webcomic2.jpg"/>
-				<img id="webcomicjpg3" src="img/webcomic3.jpg"/>
-			</div>
-			
 	</div>
+	
 	
 	<div class="void"></div>
 	
@@ -92,7 +88,7 @@
 		&copy; Najlepsze poradniki! Wszelkie prawa zastrzeżone  |<a id="powrot" href="index.html"> Powrót</a>
 	</div>
 	
-</div>
+</div>  
 
 </body>
 </html>

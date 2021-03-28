@@ -37,7 +37,7 @@ h4{
 #toppage{
 	position: relative;
 	height: 450px;
-	background-image: url("img/top.jpg");
+	background-image: url("img/top2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -215,7 +215,7 @@ h4{
 .txt{
 	color: black;
 	font-family: corbel;
-	font-size: 17px;
+	font-size: 19px;
 }
 
 #VideoContainer{
@@ -270,7 +270,7 @@ h4{
 	float: left;
 	width: 10%;
 	min-height: 600px;
-	background-color: rgb(221, 223, 227);
+	background-color: rgb(201, 203, 207);
 	flex-grow: 1;
 	padding: 10px;
 	border-left: 3px solid white;
@@ -320,6 +320,17 @@ a.conlink{
 	color: black;
 }
 
+.nag{
+	font-family: droid sans;
+	font-size: 30px;
+}
 
+.gruby { 
+	font-weight: bold; 
+}
 
+.czarny{
+	color: black;
+	text-shadow: 0 0 20px white;
+}
 

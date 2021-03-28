@@ -70,6 +70,7 @@ a.title:hover{
 	font-family: 'Ubuntu';
 	padding: 25px;
 	bottom: 0;
+	padding-bottom: 16px;
 }
 
 #subtitle{
@@ -78,6 +79,7 @@ a.title:hover{
 	font-family: 'Ubuntu';
 	padding: 25px;
 	font-style: italic;
+	padding-bottom: 16px;
 }
 
 #home{
@@ -87,6 +89,7 @@ a.title:hover{
 	padding: 20px;
 	padding-top: 25px;
 	font-family: "Ubuntu";
+	padding-bottom: 16px;
 }
 
 #tut{
@@ -96,6 +99,7 @@ a.title:hover{
 	padding: 20px;
 	padding-top: 25px;
 	font-family: "Ubuntu";
+	padding-bottom: 16px;
 }
 
 #contact{
@@ -105,6 +109,7 @@ a.title:hover{
 	padding: 20px;
 	padding-top: 25px;
 	font-family: "Ubuntu";
+	padding-bottom: 16px;
 }
 
 #stopka{
@@ -175,11 +180,12 @@ a.title:hover{
 	display: inline-block;
 	margin-top: 30px;
 	padding: 30px;
-	width: 80%;
+	width: 60%;
 	height: auto;
 	background-color: white;
 	box-shadow: 0px -5px 10px grey;
 	text-align: justify;
+	font-size: 18px;
 }
 
 .void1{
@@ -207,13 +213,18 @@ a.title:hover{
 	text-align: center;
 }
 
+#webcomicjpg4{
+	width: 20%;
+	height: 20%;
+	padding: 30px;
+}
+
 #socialfooter{
 	position: relative;
 	width: 100%;
 	min-height: 100px;
 	max-height: 200px;
 	background-color: rgb(50, 50, 50);
-	
 }
 
 #bottombar{
@@ -268,4 +279,40 @@ a#powrot{
 a#powrot:hover{
 	color: green;
 }
+
+.nag{
+	font-family: droid sans;
+	font-size: 30px;
+	color: rgb(52, 52, 52);
+	padding: 20px;
+}
+
+.tekst{
+	width: 100%;
+}
+
+#anatomy{
+	width: 40%;
+	height: 40%;
+	padding: 30px;
+}
+
+#webcomicjpg5{
+	width: 50%;
+	height: 50%;
+	padding: 30px;
+}
+
+.txt{
+	color: black;
+	font-family: corbel;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
 
