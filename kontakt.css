@@ -45,10 +45,6 @@ a.title:hover{
 	color: black;
 }
 
-.container{
-	background-color: rgb()
-}
-
 #toppage{
 	height: 80px;
 	background-color: white;
@@ -258,7 +254,9 @@ form .submit:hover{
 	cursor: pointer;
 }
 
-
+.ital{
+	font-style: italic;
+}
 
 
 
